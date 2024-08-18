@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Tuning Options</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .logo h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Main content styles */
+        .tuning-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .tuning-container h2 {
+            text-align: center;
+        }
+
+        .tuning-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+        }
+
+        .option {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .option:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .option img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .option h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .option p {
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Logo wrapped in an <a> tag for redirection -->
+            <a href="index.html">
+                <img src="https://yt3.googleusercontent.com/ytc/APkrFKbHPr-PDEBg1CCUyKxlGm6cbWsjFb2exFV0_Vhypw=s900-c-k-c0x00ffffff-no-rj" alt="Code6 Logo">
+            </a>
+            <h1>Code6</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="tuning-container">
+        <h2>Car Tuning Options</h2>
+        <p>Explore the various tuning options available for your car:</p>
+        <div class="tuning-options">
+            <div class="option">
+                <img src="https://venturatuning.my/wp-content/uploads/2018/08/IMG_68001.jpg" alt="Volkswagen Polo">
+                <h3>Volkswagen Polo</h3>
+                <p>ECU Remapping, Suspension Upgrades, Performance Exhaust Installation</p>
+            </div>
+            <div class="option">
+                <img src="https://media.karousell.com/media/photos/products/2023/11/29/honda_fit_gk3_ecu_and_transmis_1701245957_16859b57_progressive.jpg" alt="Honda City">
+                <h3>Honda City</h3>
+                <p>Engine Chip Tuning, Body Kits Installation, Turbocharger Upgrade</p>
+            </div>
+            <div class="option">
+                <img src="https://www.team-bhp.com/sites/default/files/pictures2023/2023-hyundai-verna-05_0.jpg" alt="Hyundai verna">
+                <h3>Hyundai verna</h3>
+                <p>Air Intake System Upgrade, ECU Tuning, Custom Wheels Installation</p>
+            </div>
+            <div class="option">
+                <img src="https://www.vividracing.com/blog/wp-content/uploads/stevie-mini-cooper-r53-ecu-flash-3.jpg" alt="Mini Cooper S">
+                <h3>Mini Cooper S</h3>
+                <p>Performance Brake Upgrade, Carbon Fiber Spoiler Installation, Transmission Tuning</p>
+            </div>
+            <div class="option">
+                <img src="https://cdn2.tdi-tuning.com/images/BlogEntry/24/684/Honda%20Civic%20FK8%201.jpg" alt="Honda Civic">
+                <h3>Honda Civic</h3>
+                <p>Off-road Suspension Upgrade, LED Light Bar Installation, Roof Rack Addition</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- No need to add a script for redirection as it's handled by the <a> tag around the logo -->
+</body>
+</html>
